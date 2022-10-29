@@ -1,0 +1,103 @@
+[{
+    "DefaultVars": {
+        "Altitude": {
+            "defname": "Altitude",
+            "working": "normal",
+            "default": 0.0,
+            "min": 0.0,
+            "max": 10000.0,
+            "step": 100.0,
+            "name": "Alt",
+            "setter": "setAlt",
+            "description": "Altitude in Meters"
+        },
+        "Speed": {
+            "defname": "Speed",
+            "working": "disabled",
+            "default": 0.0,
+            "min": 0.0,
+            "max": 3000.0,
+            "step": 1.0,
+            "name": "Vel",
+            "setter": "setVel",
+            "description": "Speed in m/s"
+        },
+        "Fuel Mass Ratio": {
+            "defname": "Fuel Mass Ratio",
+            "working": "normal",
+            "default": 1.0,
+            "min": 0.0,
+            "max": 10.0,
+            "step": 0.1,
+            "name": "FuelMassRatio",
+            "setter": "setFuelMassRatio",
+            "description": "Fuel Mass Ratio. 0.1 is 1% fuel, 10.0 is 100% fuel."
+        },
+        "Mass": {
+            "defname": "Mass",
+            "working": "normal",
+            "default": "None",
+            "min": 0.0,
+            "max": 10000.0,
+            "step": 1.0,
+            "name": "Mass",
+            "setter": "setMass",
+            "description": "Mass of the plane in kg."
+        },
+        "Coolant Or Head Temperature": {
+            "defname": "Coolant Or Head Temperature",
+            "working": "normal",
+            "default": 0.0,
+            "min": 0.0,
+            "max": 750.0,
+            "step": 1.0,
+            "name": "CoolantOrHeadTemperature",
+            "setter": "setCoolantOrHeadTemperature",
+            "description": "Engine Temperature. Supposedly head temperature for guns. It is measured in Kelvin."
+        },
+        "Oil Temperature": {
+            "defname": "Oil Temperature",
+            "working": "normal",
+            "default": 300.0,
+            "min": 0.0,
+            "max": 1000.0,
+            "step": 1.0,
+            "name": "OilTemperature",
+            "setter": "setOilTemperature",
+            "description": "Oil temperature of the engine. It is measured in Kelvin."
+        },
+        "Temperature": {
+            "defname": "Temperature",
+            "working": "normal",
+            "default": 300.0,
+            "min": 0.0,
+            "max": 1000.0,
+            "step": 1.0,
+            "name": "Temperature",
+            "setter": "setTemperature",
+            "description": "Temperature of the outside air. It is measured in Kelvin."
+        },
+        "Pressure": {
+            "defname": "Pressure",
+            "working": "normal",
+            "default": 101325.0,
+            "min": 0.0,
+            "max": 1000000.0,
+            "step": 100.0,
+            "name": "Pressure",
+            "setter": "setPressure",
+            "description": "Pressure of the outside air. It is measured in Pascals."
+        },
+        "Game Speed": {
+            "defname": "Game Speed",
+            "working": "normal",
+            "default": 1.0,
+            "min": 0.0,
+            "max": 10.0,
+            "step": 0.1,
+            "name": "TimeSpeed",
+            "setter": "setTimeSpeed",
+            "description": "Game Speed."
+        }
+    }
+}]
