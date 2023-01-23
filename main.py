@@ -64,7 +64,7 @@ class WindowManager(tk.Tk):
                     rresp = True
         except Exception as e:
             print(e)
-            print("Dev mode is not enabled or you are not in a Test Flight.")
+            print("Dev mode is not enabled, or you are not in a Test Flight.")
             exit()
         print(f"Got response: {response}")
         if not rresp is True:
